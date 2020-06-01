@@ -1,7 +1,7 @@
 # Spark Structured Streaming Project
 
 1. How did changing values on the SparkSession property parameters affect the throughput and latency of the data?
-    ### For configuration 1: 
+    ### Configuration 1: 
         maxOffsetsPerTrigger - 30
         core - 2
         spark.executor.memory - 8g
@@ -17,7 +17,7 @@
         Max GC Time: 29ms
         Max Scheduler Delay: 17 ms
 
-    ### For configuration 2: 
+    ### Configuration 2: 
         maxOffsetsPerTrigger - 200
         core - 2
         spark.executor.memory - 8g
@@ -33,7 +33,7 @@
         Max GC Time: 24ms
         Max Scheduler Delay: 10 ms
 
-    ### For configuration 3:
+    ### Configuration 3:
         maxOffsetsPerTrigger - 200
         core - 4
         spark.executor.memory - 8g
@@ -49,7 +49,7 @@
         Max GC Time: 23ms
         Max Scheduler Delay: 36 ms
 
-    ### For configuration 4:
+    ### Configuration 4:
         maxOffsetsPerTrigger - 200
         core - 10
         spark.executor.memory - 8g
